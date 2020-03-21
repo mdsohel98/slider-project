@@ -1,0 +1,57 @@
+.banner img{
+    width: 100%;
+    height:400px;
+}
+.prev{
+    width: 50px;
+    height: 50px;
+    background:#ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.next{
+    width: 50px;
+    height: 50px;
+    background:#ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+    border: 0;
+}
+
+ul li button{
+    font-size:0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    background: rgb(255, 0, 212);
+}
+ul .slick-active button{
+    background-color:#ffffff;
+}
